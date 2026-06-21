@@ -1,0 +1,59 @@
+{
+  "name": "SiteSettings",
+  "type": "object",
+  "properties": {
+    "bot_name": {
+      "type": "string",
+      "default": "X Bot"
+    },
+    "bot_description": {
+      "type": "string",
+      "default": "The ultimate Discord bot for your server."
+    },
+    "bot_tagline": {
+      "type": "string",
+      "default": "Powerful. Simple. Free."
+    },
+    "discord_server_link": {
+      "type": "string",
+      "default": "https://discord.gg/"
+    },
+    "bot_invite_link": {
+      "type": "string",
+      "default": "https://discord.com/oauth2/authorize"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "banner_url": {
+      "type": "string"
+    },
+    "server_count": {
+      "type": "string",
+      "default": "50K+"
+    },
+    "user_count": {
+      "type": "string",
+      "default": "2M+"
+    },
+    "uptime": {
+      "type": "string",
+      "default": "99.9%"
+    },
+    "command_count": {
+      "type": "string",
+      "default": "100+"
+    },
+    "footer_text": {
+      "type": "string",
+      "default": ""
+    },
+    "accent_color": {
+      "type": "string",
+      "default": "#7c3aed"
+    }
+  },
+  "required": [
+    "bot_name"
+  ]
+}
